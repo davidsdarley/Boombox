@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Boombox",
+    "slug": "boombox",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "bundleIdentifier": "com.david.boombox",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"],
+        "NSAppTransportSecurity": { "NSAllowsArbitraryLoads": true },
+        "NSLocalNetworkUsageDescription": "Boombox connects to your computer on Wi-Fi to sync music."
+      }
+    },
+    "android": {
+      "package": "com.david.boombox"
+    },
+    "plugins": [
+      ["expo-audio", { "enableBackgroundPlayback": true }],
+      ["expo-build-properties", { "android": { "usesCleartextTraffic": true } }]
+    ]
+  }
+}
