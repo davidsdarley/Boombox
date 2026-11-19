@@ -4,6 +4,7 @@
 node_modules/
 
 # audio downloads
+server/library.json
 audio/
 
 # Expo
