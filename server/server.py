@@ -22,7 +22,6 @@ AUDIO_DIR = "audio"
 DB_FILE = "library.json"
 os.makedirs(AUDIO_DIR, exist_ok=True)
 
-# Paste your old musicLibrary / playlists dicts here for the one-time seed.
 SEED_LIBRARY = {
     "Soldier and Thief": "https://www.youtube.com/watch?v=_Gn9EsU_-eg",
     "Rise to Victory": "https://www.youtube.com/watch?v=GORfswQLHEE",
